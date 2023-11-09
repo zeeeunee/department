@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -24,11 +24,15 @@ html {
 }
 
 :root {
-  --colorTit1: #111;
-  --colorBody: #555;
-  --colorPoint1: orangered;
-  --fontTit1: "Nanum Myeongjo", "serif", "명조";
-  --fontBody: "Noto Sans KR", "arial", "돋움";
+  --dddcolor: #bbb;
+  --borcolor: #bbb;
+  --head1color: #333;
+  --head2color: #333;
+  --yearcolor: #555;
+  --pppcolor: #888;
+  --head1font: "Zilla Slab", "arial", "돋움";
+  --head2font: "Zilla Slab", "arial", "돋움";
+  --yearfont: "Zilla Slab", "arial", "돋움";
 }
 
 .wrap1 {
@@ -38,13 +42,13 @@ html {
 .wrap1 h1 {
   width: 100%;
   margin: 25px 0;
-  color: #333;
+  color: var(--head1color);
   font-weight: normal;
   font-size: 3.5rem;
-  font-family: "Noto Sans", "arial", "돋움";
+  font-family: var(--head1font);
 }
 .wrap1 span {
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid var(--borcolor);
 }
 .wrap1 .wrap2 {
   width: 100%;
@@ -55,22 +59,22 @@ html {
   padding-right: 50px;
 }
 .wrap1 .wrap2 .box1 h2 {
-  color: #333;
+  color: var(--head2color);
   font-size: 2rem;
   font-weight: normal;
-  font-family: "Noto Sans", "arial", "돋움";
+  font-family: var(--head2font);
 }
 .wrap1 .wrap2 .box2 {
   width: 70%;
   padding-left: 50px;
-  border-left: 1px solid #bbb;
+  border-left: 1px solid var(--borcolor);
   display: flex;
   flex-flow: wrap;
 }
 .wrap1 .wrap2 .box2 .year {
   width: 100%;
-  color: #555;
-  font-family: "Noto Sans", "arial", "돋움";
+  color: var(--yearcolor);
+  font-family: var(--yearfont);
   font-style: italic;
 }
 .wrap1 .wrap2 .box2 .year h3 {

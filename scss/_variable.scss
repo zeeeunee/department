@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
 
 :root {
-	--colorTit1: #111;
-	--colorBody: #555;
-	--colorPoint1: orangered;
-	--fontTit1: 'Nanum Myeongjo', 'serif', '명조';
-	--fontBody: 'Noto Sans KR', 'arial', '돋움';
+	--dddcolor: #bbb;
+	--borcolor: #bbb;
+	--head1color: #333;
+	--head2color: #333;
+	--yearcolor: #555;
+	--pppcolor: #888;
+	--head1font: 'Zilla Slab', 'arial', '돋움';
+	--head2font: 'Zilla Slab', 'arial', '돋움';
+	--yearfont: 'Zilla Slab', 'arial', '돋움';
 }
 $labtop: 1199px;
 $tablet: 779px;
